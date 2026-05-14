@@ -9,7 +9,7 @@
     <script src="js/alpin.js" defer></script>
 </head>
 <body class="flex flex-col h-screen">
-    <header class="bg-red-300 text-gray-50 py-2 text-gray-100">
+    <header class="bg-red-300 py-2 text-gray-100">
         <div class="container mx-auto flex flex-col md:flex-row justify-between">
         <a href="">
             <img src="" alt="">
@@ -23,7 +23,7 @@
             <a href="" class="hover:text-red-950 duration-300">ЮзерПанель</a>
             <a href="" class="hover:text-red-950 duration-300">АдминПанель</a>
         </nav>
-        <ul class="flex gap-x-4 font-gray-200">
+        <ul class="flex gap-x-4">
             <li><a href="" class="hover:text-red-950 duration-300">Вход</a></li>
             <li><a href="" class="hover:text-red-950 duration-300">Регистрация</a></li>
             <li><a href="" class="hover:text-red-950 duration-300">Выход</a></li>
@@ -40,14 +40,14 @@
                 i: 1,
                 items: ['1.jpg', '2.jpg', '3.jpg', '4.jpg', '5.jpg']
             }">
-                <div class="bg-red-300 w-6 h-6 rounded-full text-gray-50 text-center text-gray-200 cursor-pointer" @click=" i<=0 ? i=4 : i--"><</div>
+                <div class="bg-red-300 w-6 h-6 rounded-full text-gray-100 text-center cursor-pointer" @click=" i<=0 ? i=4 : i--"><</div>
                 <div class="h-[600px] w-full bg-gray-100 flex-grow">
                     <img x-bind:src="'images/slider/'+items[i]+''" alt="" class="h-full w-full object-cover">
                 </div>
-                <div class="bg-red-300 w-6 h-6 rounded-full text-gray-50 text-center text-gray-200 cursor-pointer" @click=" i>=4 ? i=0 : i++">></div>
+                <div class="bg-red-300 w-6 h-6 rounded-full text-gray-100 text-center cursor-pointer" @click=" i>=4 ? i=0 : i++">></div>
             </div>
         </div>
     </main>
-    <footer class="bg-red-300 text-gray-50 py-2 text-center">Footer</footer>
+    <footer class="bg-red-300 text-gray-100 py-2 text-center">Footer</footer>
 </body>
 </html>

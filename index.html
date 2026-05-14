@@ -42,7 +42,7 @@
             }">
                 <div class="bg-red-300 w-6 h-6 rounded-full text-gray-50 text-center text-gray-200 cursor-pointer" @click=" i<=0 ? i=4 : i--"><</div>
                 <div class="h-[600px] w-full bg-gray-100 flex-grow">
-                    <img x-bind:src="'images/slider/'+items[i]+''" alt="" class="h-full w-full">
+                    <img x-bind:src="'images/slider/'+items[i]+''" alt="" class="h-full w-full object-cover">
                 </div>
                 <div class="bg-red-300 w-6 h-6 rounded-full text-gray-50 text-center text-gray-200 cursor-pointer" @click=" i>=4 ? i=0 : i++">></div>
             </div>

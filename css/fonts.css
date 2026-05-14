@@ -1,0 +1,47 @@
+@font-face {
+    font-family: 'Geist';
+    src: url(../fonts/Geist-Thin.ttf);
+    font-weight: 200;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url(../fonts/Geist-Light.ttf);
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url(../fonts/Geist-Medium.ttf);
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: 'Geist';
+    src: url(../fonts/Geist-Bold.ttf);
+    font-weight: 900;
+}
+
+.font-geist-200
+{
+    font-family: 'Geist';
+    font-weight: 200;
+}
+
+.font-geist-400
+{
+    font-family: 'Geist';
+    font-weight: 400;
+}
+
+.font-geist-600
+{
+    font-family: 'Geist';
+    font-weight: 600;
+}
+
+.font-geist-900
+{
+    font-family: 'Geist';
+    font-weight: 900;
+}
